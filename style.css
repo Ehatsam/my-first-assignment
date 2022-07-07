@@ -337,3 +337,27 @@ h1 {
     cursor: pointer;
     transition: .3s;
 }
+
+footer {
+    background: rgb(229, 209, 209);
+    height: 10vw;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+footer h2 {
+    color: #b60c0c;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.footer-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
