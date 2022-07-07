@@ -20,7 +20,7 @@ body {
     margin: auto;
     padding: 0%;
     text-align: center;
-    top: 25%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     padding-left: 40px;
@@ -310,9 +310,9 @@ h1 {
     padding-right: 200px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-radius: ;
+    border-radius: 5px;
     background: #e58282;
-    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+    box-shadow: 10px 10px 10px 10px #c7c4c4,
 }
 
 .from-Box input {
@@ -360,4 +360,8 @@ footer h2 {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+body {
+    background: #bebbbb;
 }
