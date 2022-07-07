@@ -17,16 +17,25 @@ body {
 
 .heading {
     position: absolute;
-    top: 30%;
-    width: 90%;
+    margin: auto;
+    padding: 0%;
     text-align: center;
-    font-size: 20px;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
 .text-color {
     color: white;
-    font-size: 50px;
+    font-size: 59px;
     text-align: center;
+
+}
+
+.donate {
+    line-height: 60px;
 }
 
 h1 {
@@ -51,6 +60,7 @@ h1 {
     text-align: center;
     paddingt: 100%;
     font-size: 20px;
+
 }
 
 .flexible {}
@@ -64,11 +74,17 @@ h1 {
     border-radius: 5px;
 }
 
+.donet-taka {
+    text-align: center;
+    padding-left: 30px;
+
+}
+
 .container1 {
     position: relative;
     width: 1200px;
     height: 400px;
-    margin: 240px auto;
+    margin: 120px auto;
 
 }
 
@@ -172,13 +188,15 @@ h1 {
     position: relative;
     width: 1000px;
     height: 90px;
-    margin: 0px auto;
-
+    margin: auto;
+    padding-left: 300px;
+    padding-right: 80px;
+    text-align: center;
 }
 
 .container2 .donet1 {
-    width: 100px;
-    height: 90px;
+    width: 70px;
+    height: 100px;
     background-color: rgb(206, 221, 216);
     float: left;
     padding-right: 5%;
@@ -190,8 +208,8 @@ h1 {
 }
 
 .container2 .donet2 {
-    width: 100px;
-    height: 90px;
+    width: 70px;
+    height: 100px;
     background-color: rgb(243, 195, 195);
     float: left;
     padding-right: 5%;
@@ -205,6 +223,12 @@ h1 {
 .amount {
     max-width: 500px;
     text-align: center;
+    margin: auto;
+    line-height: 70px;
+}
+
+.amount-taka {
+    text-align: justify;
     margin: auto;
 }
 
@@ -234,7 +258,7 @@ h1 {
 
 .fexible-Container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .fexible-Container1 {
@@ -259,4 +283,57 @@ h1 {
 .donation-lives {
     padding-left: 30px;
     padding-right: 50px;
+}
+
+.donation-lives1 {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.get-update {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.from-Box {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: ;
+    background: #e58282;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+
+.from-Box input {
+    color: #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ececec;
+    border: none;
+    outline: none;
+}
+
+.from-Box button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(226, 36, 36);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
 }
